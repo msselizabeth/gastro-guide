@@ -338,13 +338,14 @@
 
     .headerLogo {
         width: 360px;
+        height: 60px;
         font-size: 36px;
 
     &::after {
-            top: -6px;
+            top: 0px;
             right: 144px;
-            width: 82px;
-            height: 58px;
+            width: 84px;
+            height: 60px;
     
         }
     
