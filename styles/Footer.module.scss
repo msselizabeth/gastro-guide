@@ -18,7 +18,7 @@
     height: 46px;
     color: var(--color-primary-titles);
     font-size: 22px;
-    transition: background-image 350ms cubic-bezier(.87, .2, .21, .76), color 350ms cubic-bezier(.87, .2, .21, .76);
+    transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover, &:focus {
             color: transparent;
@@ -39,7 +39,7 @@
             height: 46px;
             background-size: cover;
             background-image: url("/logo-icon.svg");
-            transition: background-image 350ms cubic-bezier(.87, .2, .21, .76),
+            transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
     }
     &:hover::after,
     &:focus::after {
@@ -83,7 +83,7 @@
     color: var(--color-titles-section);
     font-size: 14px;
     text-align: center;
-    transition: color 350ms cubic-bezier(.87, .2, .21, .76);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover, &:focus {
             color: transparent;
@@ -99,7 +99,7 @@
         width: 15px;
         height: 15px;
         background-size: cover;
-        transition: background-image 350ms cubic-bezier(.87, .2, .21, .76),
+        transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
     }
 
     &Home{
@@ -219,9 +219,9 @@
     justify-content: center;
     align-items: center;
     color: var(--color-titles-section);
-    transition: background-image 350ms cubic-bezier(.87, .2, .21, .76), color 350ms cubic-bezier(.87, .2, .21, .76);
+    transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 18px;
-    
+
     &:hover, &:focus {
         color: transparent;
         background-clip: text;
@@ -236,7 +236,7 @@
         width: 25px;
         height: 25px;
         background-size: cover;
-        transition: background-image 350ms cubic-bezier(.87, .2, .21, .76),
+        transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1),
     }
 
     &Insta::after{
