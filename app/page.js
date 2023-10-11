@@ -2,11 +2,13 @@ import Image from "next/image";
 import { mons, daysOne, monsA } from "./layout";
 import Link from "next/link";
 import styles from "../styles/Home.module.scss";
+import { WorldMap } from "@/components/icons/WorldMapIcon";
 
 export default function Home() {
   return (
     <section className={`section ${styles.hero}`} >
       <div className={`container ${styles.heroContainer}`}>
+        <WorldMap/>
         <Link className={`${styles.heroLink} ${styles.heroLinkGreenland}`} href="#">Greenland</Link>
         <Link className={`${styles.heroLink} ${styles.heroLinkNA}`} href="#">North <br/> America</Link>
         <Link className={`${styles.heroLink} ${styles.heroLinkSA}`} href="#">South <br/> America</Link>
