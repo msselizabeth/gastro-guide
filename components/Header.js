@@ -9,6 +9,7 @@ import { MainNavList } from "./MainNavList";
 import styles from "../styles/Header.module.scss";
 import { daysOne } from "@/app/layout";
 import { LogoIcon } from "./icons/LogoIcon";
+import GradientIcon from "./GradientIcon";
 
 
 export const navList = [
@@ -35,7 +36,7 @@ export const Header = () => {
             <span className={styles.headerLogoDecorWord}>Guide</span>
           </Link>
           <MainNavList />
-
+        
           <MobileMenu />
 
           <ul className={styles.authList}>
