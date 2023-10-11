@@ -12,7 +12,7 @@
             height: 40px;
             background-size: cover;
             background-image: url("/mob-menu-icon.svg");
-            transition: background-image 0.3s ease-in-out,
+            transition: background-image 350ms cubic-bezier(.87, .2, .21, .76),
         }
     &:hover::before{
         background-image: url("/mob-menu-icon-hover.svg");
@@ -58,7 +58,7 @@
         height: 22px;
         background-size: cover;
         background-image: url("/close-icon.svg");
-        transition: background-image 0.3s ease-in-out;
+        transition: background-image 350ms cubic-bezier(.87, .2, .21, .76);
     }
 
     &:hover::after {
@@ -75,6 +75,7 @@
 
     font-size: 20px;
     font-weight: 500;
+    
 }
 
 .mobileMenuAuthList {
@@ -90,7 +91,7 @@
     position: relative;
     padding-left: 17px;
     color: var(--color-primary-text);
-    transition: color 0.3s ease-in-out;
+    transition: color 350ms cubic-bezier(.87, .2, .21, .76);
 
     &:hover,
     &:focus {
@@ -107,7 +108,7 @@
         width: 16px;
         height: 16px;
         background-size: cover;
-        transition: background-image 0.3s ease-in-out;
+        transition: background-image 350ms cubic-bezier(.87, .2, .21, .76);
     }
 
     &Auth::before {
@@ -136,6 +137,7 @@
 
 .mobileMenuNavListLink {
     color: var(--color-primary-text);
+    transition: color 350ms cubic-bezier(.87, .2, .21, .76);
 
     &:hover,
     &:focus {
@@ -157,7 +159,7 @@
     display: flex;
     align-items: center;
     color: var(--color-titles-section);
-    transition: background-image 0.3s ease-in-out, color 0.3s ease-in-out;
+    transition: background-image 350ms cubic-bezier(.87, .2, .21, .76), color 350ms cubic-bezier(.87, .2, .21, .76);
     margin-right: 18px;
 
     &:hover,
@@ -175,7 +177,7 @@
         width: 25px;
         height: 25px;
         background-size: cover;
-        transition: background-image 0.3s ease-in-out,
+        transition: background-image 350ms cubic-bezier(.87, .2, .21, .76),
     }
 
     &Insta::after {
@@ -217,7 +219,7 @@
     width: 320px;
     height: 100%;
     background-color: #ffffff;
-    transition: right 0.7s ease-in-out;
+    transition: right 350ms cubic-bezier(.87, .2, .21, .76);
 
 }
 

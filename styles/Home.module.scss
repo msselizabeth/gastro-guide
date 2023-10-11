@@ -30,7 +30,7 @@
     font-size: 8px;
     font-weight: 500;
     color: var(--color-hero-text);
-    transition: transform 0.3s ease-in-out;
+    transition: transform 350ms cubic-bezier(.87, .2, .21, .76);
 
     &:hover,
     &:focus {

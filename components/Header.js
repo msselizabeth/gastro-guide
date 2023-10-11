@@ -36,7 +36,7 @@ export const Header = () => {
             <span className={styles.headerLogoDecorWord}>Guide</span>
           </Link>
           <MainNavList />
-        
+          
           <MobileMenu />
 
           <ul className={styles.authList}>
